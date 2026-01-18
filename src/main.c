@@ -41,7 +41,7 @@ void app_sarted_callback(void *data) {
 void handle_init(void) {
   appStarted = false;
 
-  setlocale(LC_ALL, "");
+  setlocale(LC_ALL, "POSIX");
 
   settings_init();
   window_init();
