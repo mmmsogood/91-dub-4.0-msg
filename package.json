@@ -1,0 +1,90 @@
+{
+  "name": "91-Dub-4.0-msg",
+  "author": "mmmsogood",
+  "version": "4.21.0",
+  "private": true,
+  "keywords": [
+    "pebble-watchface"
+  ],
+  "dependencies": {},
+  "pebble": {
+    "sdkVersion": "3",
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "enableMultiJS": false,
+    "capabilities": [
+      "configurable",
+      "health"
+    ],
+    "projectType": "native",
+    "displayName": "91 Dub 4.0 msg",
+    "uuid": "6f793101-f0d5-4e8b-a57e-ab81caa40083",
+    "watchapp": {
+      "watchface": true,
+      "hiddenApp": false,
+      "onlyShownOnCommunication": false
+    },
+    "resources": {
+      "media": [
+        {
+          "characterRegex": "[:0-9]",
+          "file": "fonts/DS-Digital-Bold.ttf",
+          "name": "FONT_DIGITALE_71",
+          "type": "font"
+        },
+        {
+          "characterRegex": "[:0-9]",
+          "file": "fonts/DS-Digital-Bold.ttf",
+          "name": "FONT_DIGITALE_56",
+          "type": "font"
+        },
+        {
+          "characterRegex": "[:0-9A-Z ]",
+          "file": "fonts/DS-Digital-Bold.ttf",
+          "name": "FONT_DIGITALE_22",
+          "type": "font"
+        },
+        {
+          "characterRegex": "[0-9 A-Za-z%.:, --/' ~]",
+          "file": "fonts/lucon.ttf",
+          "name": "FONT_LUCIDIA_10",
+          "type": "font"
+        },
+        {
+          "file": "images/logo2.png",
+          "name": "IMAGE_LOGO2",
+          "type": "png"
+        },
+        {
+          "file": "images/menu_icon_91w.png",
+          "menuIcon": true,
+          "name": "IMAGE_MENU_ICON",
+          "type": "png"
+        }
+      ]
+    },
+    "messageKeys": {
+      "battery_hide": 5,
+      "blink": 0,
+      "bluetoothvibe": 2,
+      "branding_mask": 4,
+      "hourlyvibe": 3,
+      "invert": 1,
+      "powersave": 7,
+      "ps_end": 9,
+      "ps_start": 8,
+      "seconds": 6,
+      "set1colors": 201,
+      "set2colors": 202,
+      "setcolors": 200,
+      "switchset": 10,
+      "switch_end": 12,
+      "switch_start": 11,
+      "health": 13
+    }
+  }
+}
